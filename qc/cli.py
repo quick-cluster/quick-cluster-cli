@@ -39,3 +39,7 @@ def main(cluster, instance_type, storage_gbs, nodes, region):
 # TODO(rushiagr): Say 'script completed in 1234 seconds' at end
 
 # TODO(rushiagr): Display public IPs of nodes in cluster, for easy viewing
+
+# TODO(rushiagr): say 'creating cluster with these input params:
+# region=<region>, nodes=<nodes>, etc, so that we also show what default
+# options are if the user haven't specified them
