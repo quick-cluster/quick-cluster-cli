@@ -16,6 +16,14 @@ Example:
 View all options:
 
     $ qc --help
+    Usage: qc [OPTIONS] CLUSTER
+    
+    Options:
+      -n, --region TEXT          AWS region. Defaults to us-east-1.
+      -n, --nodes INTEGER        Number of nodes in cluster. Defaults to 1
+      -s, --storage-gbs INTEGER  Root disk size in GBs. Defaults to 8.
+      -i, --instance-type TEXT   AWS instance type. Defaults to t2.micro.
+      --help                     Show this message and exit.
 
 
 ## Goal
