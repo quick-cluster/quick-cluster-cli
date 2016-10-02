@@ -31,4 +31,4 @@ It takes your AWS credentials from your `~/.aws/credentials` file, and creates a
 
 ## Goal
 
-This project aims to create a CLI tool to quickly create clusters in a cloud. There's no such well-defined automation for a lot of clustered, distributed systems like Cassandra, Apache Kafka, Apache Spark, MongoDB, Riak, apache Storm, etc. and this projects aims to bridge that gap. In future, we should have support for multiple cloud providers -- both hypervisor and container based. Contributions welcome!
+This project aims to create a CLI tool to quickly create clusters in a cloud. There's no well-defined automation for a lot of clustered, distributed systems like Cassandra, Apache Kafka, Apache Spark, MongoDB, Riak, Apache Storm, etc. and this projects aims to bridge that gap. In future, we should have support for multiple cloud providers -- both hypervisor and container based. Contributions welcome!
