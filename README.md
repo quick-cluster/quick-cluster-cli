@@ -2,6 +2,8 @@
 
 Quickly and easily create a Cassandra cluster on EC2 cloud.
 
+See <a href="https://raw.githubusercontent.com/rushiagr/public/master/img/quick-cluster-snapshot.png">snapshot</a>
+
 
 # Installation
 
