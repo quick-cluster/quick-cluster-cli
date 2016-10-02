@@ -26,6 +26,9 @@ View all options:
       --help                     Show this message and exit.
 
 
+## How it works
+It takes your AWS credentials from your `~/.aws/credentials` file, and creates a keypair, then a security group and then all the VMs for your cluster. There's lot of work which can be done to make this project a seamless experience. For example, we can have support for AWS 'profiles', by specifying `--profile my-personal-aws-acct-credentials`.
+
 ## Goal
 
 This project aims to create a CLI tool to quickly create clusters in a cloud. There's no such well-defined automation for a lot of clustered, distributed systems like Cassandra, Apache Kafka, Apache Spark, MongoDB, Riak, apache Storm, etc. and this projects aims to bridge that gap. In future, we should have support for multiple cloud providers -- both hypervisor and container based. Contributions welcome!
