@@ -11,13 +11,13 @@ Clone this repository, and run `python setup.py develop`
 
 Example:
 
-    $ qc cassandra --nodes 5 --storage-gbs 100 --instance-type m4.large --region us-west-1
+    $ qc --nodes 5 --storage-gbs 100 --instance-type m4.large --region us-west-1
 
 View all options:
 
     $ qc --help
     Usage: qc [OPTIONS] CLUSTER
-    
+    .
     Options:
       -n, --region TEXT          AWS region. Defaults to us-east-1.
       -n, --nodes INTEGER        Number of nodes in cluster. Defaults to 1
